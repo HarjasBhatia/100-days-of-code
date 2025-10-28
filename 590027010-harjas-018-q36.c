@@ -19,8 +19,7 @@ int main() {
     if (num1 <= 0 || num2 <= 0) {
         printf("Please enter positive integers.\n");
         return 1;
-    }
-    
+    }   
     printf("HCF of %d and %d is %d\n", num1, num2, hcf(num1, num2));
     return 0;
 }
